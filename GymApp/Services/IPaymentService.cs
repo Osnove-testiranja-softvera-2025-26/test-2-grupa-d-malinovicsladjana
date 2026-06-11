@@ -5,6 +5,6 @@ namespace GymApp.Services
 {
     public interface IPaymentService
     {
-        void UpdateTrainerBonusPayment(Guid trianerId, BonusPayment payment);
+       void UpdateTrainerBonusPayment(Guid trianerId, BonusPayment payment);
     }
 }
